@@ -28,27 +28,25 @@ Visualize os membros do projeto e o histórico de entregas na página da [Wiki](
 ![Projeto](https://gitlab.com/jesscahelen/antenas-integracao/uploads/168eac80fffc7e03b71e25ae07768826/image.png)
 Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos seguintes passos:
 
-### Fase 1:
+### I - Cadastro Inicial:
 - Empresa se cadastra no sistema envia uma primeira proposta de projeto contendo apenas uma breve descrição.
-- Membro do Cadi aprova a primeira proposta e dá início ao desenvolvimento do projeto
 
-### Fase 2:
-- Empresa envia proposta de projeto com informações adicionais, incluindo informações detalhadas e links externos, e membro do CADI aceita novamente a proposta enviada 
+### II - Avaliação Inicial:
+- Membro do Cadi aprova a primeira proposta e dá prosseguimento ao projeto
 
-### Fase 3:
-- Empresa envia proposta de projeto com informações adicionais e membro do CADI aceita a proposta enviada e solicita dados como descrição das tecnologias utilizadas e links externos
+### III - Cadastro Detalhado:
+- Empresa envia proposta de projeto com informações adicionais, como descriçao completa, lista de tecnologias utilizadas e links externos
 
-### Fase 4:
-- Membro do CADI aceita a proposta completa e solicita a realização de uma reunião com a empresa solicitante, além da escolha de um professor da faculdade que será responsável por supervisionar a implementação da solução 
-- Empresa solicitante confirma a data de uma reunião e ela é realizada em conjunto com o professor escolhido
+### IV - Avaliação Detalhada:
+- Membro do CADI aceita a proposta completa enviada pela empresa e retorna a ela uma lista de datas para a realição de uma reunião presencial com os responsáveis pelo projeto e um membro do CADI
 
-### Fase 5:
-- O profesor escolhido passa a uma equipe de alunos a proposta do projeto e é designada uma série de datas de entregas para cada membro e uma data de entrega final da solução
-- Os alunos iniciam a entrega de cada parte da solução em que estão envolvidos
+### V - Reunião:
+- Empresa escolhe a data da reunião e, após sua realização, escolhe um professor responsável por supervisionar um time de alunos que desenvolverá o projeto
 
-### Fase 6:
-- Após a realização de todas as entregas, a solução completa é enviada à empresa solicitante e o projeto é concluido
+### VI - Entrega:
+- Após a organização do time e estabelecimento de uma data de entrega, cada aluno envia a parte do projeto pela qual é responsável e a solução completa é enviada à empresa solicitante.
 
+![Projeto](https://gitlab.com/jesscahelen/antenas-integracao/uploads/e007f1f61bc292170fb75021de1701f2/image.png)
 
 # Acesso ao sistema
 Acesse uma versão de demonstração do sistema Antenas no link: [Link]
@@ -75,7 +73,7 @@ Entre as principais tecnologias utilizadas no sistema estão:
 - Análise de performance da aplicação com a ferramenta JavaMelody e monitoramento de qualidade do código pela ferramenta SonarCube Cloud.
 
 
-Para detalhes das tecnologias do sistema, acesse nossa [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/home);
+Para detalhes das tecnologias do sistema, acesse nossa [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/home).
 
 
 
