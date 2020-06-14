@@ -18,7 +18,7 @@ O projeto Antenas permite que empresas, em conjunto com alunos, professores e ge
 Através da criação e acompanhamento de um projeto no sistema Antenas, qualquer empresa da região de São José dos Campos e proximidades pode sugerir a realização de alguma solução tecnológica (seja a criação de uma nova tecnologia ou a resolução de algum problema atual da organização) e, após a aprovação de gestores do [Centro de Apoio ao Desenvolvimento e Inovação](https://fatecsjc-prd.azurewebsites.net/cadi.php) (CADI) da FATEC-SJC, essa solução é direcionada para um time de alunos, orientados por um professor, para ser realizada e entregue à empresa solicitante.
 
 ### Disciplina Laboratório de Projetos de Bancos de Dados
-Este projeto foi desenvolvido por alunos do quinto semestre do curso de Tecnologia em Bancos de Dados da FATEC-SJC.
+Este projeto foi desenvolvido por alunos do quinto semestre do curso de Tecnologia em Bancos de Dados da FATEC-SJC durante o primeiro semestre de 2020.
 \
 \
 Visualize os membros do projeto e o histórico de entregas na página da [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/Time-e-Hist%C3%B3rico-de-Entregas)
