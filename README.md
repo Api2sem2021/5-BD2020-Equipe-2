@@ -1,10 +1,27 @@
-# Projeto Antenas
+<h1 align="center">Projeto Antenas</h1
+\
+\
 
-O projeto Antenas permite que empresas, alunos, professores e gestores da Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal. (FATEC-SJC) colaborem para a resolução de problemas, criação de novas funcionalidades em seus produtos e recrutamento de profissionais do ramo tecnológico.
+![Antenas Logo](https://gitlab.com/jesscahelen/antenas-integracao/uploads/1e6947974c3be4ac0bc1026f297f904a/image.png)
 
-Através da criação e acompanhamento de um projeto no sistema Antenas, qualquer empresa da região de São José dos Campos e proximidades pode sugerir a realização de alguma solução tecnológica (seja a criação de uma nova tecnologia ou a resolução de algum problema atual da organização) e, após a aprovação de gestores do Centro de Apoio ao Desenvolvimento e Inovação (CADI) da FATEC-SJC, essa solução é direcionada para um time de alunos, orientados por um professor, para ser realizada e entregue à empresa solicitante.
+<p align="center">
+    <a href="#visao-geral">Visão Geral</a> -
+    <a href="#fases-dos-projetos">Fases dos Projetos</a> -
+    <a href="#acesso-ao-sistema">Acesso ao Sistema</a> -
+    <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+</p>
 
-### Disciṕlina Laboratório de Projetos de Bancos de Dados
+
+# Visão Geral
+O projeto Antenas permite que empresas, em conjunto com alunos, professores e gestores da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/) (FATEC-SJC), colaborem para a resolução de problemas, criação de novas funcionalidades em seus produtos e recrutamento de profissionais do ramo da tecnologia.
+
+Através da criação e acompanhamento de um projeto no sistema Antenas, qualquer empresa da região de São José dos Campos e proximidades pode sugerir a realização de alguma solução tecnológica (seja a criação de uma nova tecnologia ou a resolução de algum problema atual da organização) e, após a aprovação de gestores do [Centro de Apoio ao Desenvolvimento e Inovação](https://fatecsjc-prd.azurewebsites.net/cadi.php) (CADI) da FATEC-SJC, essa solução é direcionada para um time de alunos, orientados por um professor, para ser realizada e entregue à empresa solicitante.
+
+### Disciplina Laboratório de Projetos de Bancos de Dados
+Este projeto foi desenvolvido por alunos do quinto semestre do curso de Tecnologia em Bancos de Dados da FATEC-SJC.
+\
+\
+Visualize os membros do projeto e o histórico de entregas na página da [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/Time-e-Hist%C3%B3rico-de-Entregas)
 
 
 # Fases dos projetos
@@ -31,7 +48,7 @@ Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos segu
 - Após a realização de todas as entregas, a solução completa é enviada à empresa solicitante e o projeto é concluido
 
 
-## Acesso ao sistema
+# Acesso ao sistema
 Acesse uma versão de demonstração do sistema Antenas no link: [Link]
 
 ### Teste a aplicação
@@ -43,7 +60,7 @@ Para testar uma versão do projeto em um ambiente local, clone o projeto para um
 
 Após a inicialização da aplicação, acesse o sistema através do endereço http://localhost:8080/.
 
-## Tecnologias utilizadas
+# Tecnologias utilizadas
 Entre as principais tecnologias utilizadas no sistema estão:
 - Uso do framework Spring Boot para maior segurança no back-end e maior velocidade na manutenção do código e criação de novas funcionalidades
 
