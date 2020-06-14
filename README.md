@@ -1,5 +1,67 @@
 # Projeto Antenas
 
+O projeto Antenas permite que empresas, alunos, professores e gestores da Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal. (FATEC-SJC) colaborem para a resolução de problemas, criação de novas funcionalidades em seus produtos e recrutamento de profissionais do ramo tecnológico.
+
+Através da criação e acompanhamento de um projeto no sistema Antenas, qualquer empresa da região de São José dos Campos e proximidades pode sugerir a realização de alguma solução tecnológica (seja a criação de uma nova tecnologia ou a resolução de algum problema atual da organização) e, após a aprovação de gestores do Centro de Apoio ao Desenvolvimento e Inovação (CADI) da FATEC-SJC, essa solução é direcionada para um time de alunos, orientados por um professor, para ser realizada e entregue à empresa solicitante.
+
+# Fases dos projetos
+Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos seguintes passos:
+<span style="color: green;">text</span>
+
+### Fase 1:
+- Empresa envia uma proposta simplicada de um projeto para o sistema e membro do CADI aceita a proposta e solicita o envio de outros dados sobre ela 
+
+### Fase 2:
+- Empresa envia proposta de projeto com informações adicionais e membro do CADI aceita a proposta enviada 
+
+### Fase 3:
+- Empresa envia proposta de projeto com informações adicionais e membro do CADI aceita a proposta enviada e solicita dados como descrição das tecnologias utilizadas e links externos
+
+### Fase 4:
+- Membro do CADI aceita a proposta completa e solicita a realização de uma reunião com a empresa solicitante, além da escolha de um professor da faculdade que será responsável por supervisionar a implementação da solução 
+- Empresa solicitante confirma a data de uma reunião e ela é realizada em conjunto com o professor escolhido
+
+### Fase 5:
+- O profesor escolhido passa a uma equipe de alunos a proposta do projeto e é designada uma série de datas de entregas para cada membro e uma data de entrega final da solução
+- Os alunos iniciam a entrega de cada parte da solução em que estão envolvidos
+
+### Fase 6:
+- Após a realização de todas as entregas, a solução completa é enviada à empresa solicitante e o projeto é concluido
+
+
+## Acesso ao sistema
+Acesse uma versão de demonstração do sistema Antenas no link: [Link]
+
+### Teste a aplicação
+Para testar uma versão do projeto em um ambiente local, em uma máquina configurada com a JDK java e o gerenciador de projeto maven, rode os seguintes comandos no diretorio do projeto:
+mvn clean install
+java -jar target/antenas
+
+e acesse o sistema através do endereço http://localhost:8080/
+
+## Tecnologias utilizadas
+Entre as principais tecnologias utilizadas no sistema estão:
+- Uso do framework Spring Boot, um dos mais populares atualmente, para o tratamento do back-end, aliado com o banco de dados Mongo Atlas hospedado na nuvem, propiciando a segurança dos dados
+
+- Realização de testes unitarios e de integração após o envio de novos commits, para garantir a estabilidade do sistema após correções de problemas e criação de novas funcionalidades
+
+- Uso de ferramentas como SonarCube Cloud e JavaMelody e  para a análise da estrutura de código e da sua execução
+
+
+Para detalhes tecnológicos do sistema, acesse nossa wiki:
+
+
+
+
+
+
+
+
+
+
+
+# Projeto Antenas
+
 - [Jean Pierro](https://gitlab.com/JeanLPierro)
 - [Jéssica Rosado](https://gitlab.com/jesscahelen/)
 - [Marcelo Teixeira](https://gitlab.com/marcelofsteixeira)
