@@ -21,17 +21,19 @@ Através da criação e acompanhamento de um projeto no sistema Antenas, qualque
 Este projeto foi desenvolvido por alunos do quinto semestre do curso de Tecnologia em Bancos de Dados da FATEC-SJC durante o primeiro semestre de 2020.
 \
 \
-Visualize os membros do projeto e o histórico de entregas na página da [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/Time-e-Hist%C3%B3rico-de-Entregas)
+Visualize os membros do projeto e o histórico de entregas na página da [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/Time-e-Hist%C3%B3rico-de-Entregas).
 
 
 # Fases dos projetos
+![Projeto](https://gitlab.com/jesscahelen/antenas-integracao/uploads/168eac80fffc7e03b71e25ae07768826/image.png)
 Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos seguintes passos:
 
 ### Fase 1:
-- Empresa envia uma proposta simplicada de um projeto para o sistema e membro do CADI aceita a proposta e solicita o envio de outros dados sobre ela 
+- Empresa se cadastra no sistema envia uma primeira proposta de projeto contendo apenas uma breve descrição.
+- Membro do Cadi aprova a primeira proposta e dá início ao desenvolvimento do projeto
 
 ### Fase 2:
-- Empresa envia proposta de projeto com informações adicionais e membro do CADI aceita a proposta enviada 
+- Empresa envia proposta de projeto com informações adicionais, incluindo informações detalhadas e links externos, e membro do CADI aceita novamente a proposta enviada 
 
 ### Fase 3:
 - Empresa envia proposta de projeto com informações adicionais e membro do CADI aceita a proposta enviada e solicita dados como descrição das tecnologias utilizadas e links externos
