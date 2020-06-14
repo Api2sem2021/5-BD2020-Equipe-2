@@ -165,10 +165,14 @@ A fase de CD do projeto passa pelos seguintes passos:
 
 Para o banco de dados, utilizaremos o [MongoDB Atlas](https://www.mongodb.com/cloud/atlas), para ter uma segurança a mais que o banco de dados estará disponível, já que estará na Cloud do MongoDB, facilitando também o acesso dos integrantes da equipe e não sobrecarregando menos a máquina virtual em que o aplicativo estará disponível. [Link para Issue](https://gitlab.com/jesscahelen/antenas-integracao/-/issues/4).
 \
-No momento o banco está mapeado para testes e para produção, falta verificar sobre backup nessa interface em específico.
+No momento o Banco de dados possui 3 mapeamentos de Profile, sendo: dev, prod e test.
 
-Em consonância, realizaremos uma implementação do [Mongock](https://github.com/cloudyrock/mongock), afim de gerenciar alterações do MongoDB e definição de versões do mesmo. 
-O MongoCk possui integração com SpringBoot e com o Atlas.
+Em consonância, realizamos uma implementação do [Mongock](https://github.com/cloudyrock/mongock). O Mongock possui integração com Sring Boot e o Cloud Atlas,
+no processo de configuração o Mongock executa inserts de acordo com a versão do schema do ambiente, ao realizar alterações de uma nova versão do Schema é possivel atualizar os ambientes automaticamente definido pelo Profile. 
+
+Ainda estamos trabalhando para automatizar o processo de backup do MongoDB.
+
+
 
 
 ## Sonarqube Cloud
