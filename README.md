@@ -4,9 +4,11 @@ O projeto Antenas permite que empresas, alunos, professores e gestores da Faculd
 
 Através da criação e acompanhamento de um projeto no sistema Antenas, qualquer empresa da região de São José dos Campos e proximidades pode sugerir a realização de alguma solução tecnológica (seja a criação de uma nova tecnologia ou a resolução de algum problema atual da organização) e, após a aprovação de gestores do Centro de Apoio ao Desenvolvimento e Inovação (CADI) da FATEC-SJC, essa solução é direcionada para um time de alunos, orientados por um professor, para ser realizada e entregue à empresa solicitante.
 
+### Disciṕlina Laboratório de Projetos de Bancos de Dados
+
+
 # Fases dos projetos
 Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos seguintes passos:
-<span style="color: green;">text</span>
 
 ### Fase 1:
 - Empresa envia uma proposta simplicada de um projeto para o sistema e membro do CADI aceita a proposta e solicita o envio de outros dados sobre ela 
@@ -33,22 +35,28 @@ Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos segu
 Acesse uma versão de demonstração do sistema Antenas no link: [Link]
 
 ### Teste a aplicação
-Para testar uma versão do projeto em um ambiente local, em uma máquina configurada com a JDK java e o gerenciador de projeto maven, rode os seguintes comandos no diretorio do projeto:
-mvn clean install
-java -jar target/antenas
+Para testar uma versão do projeto em um ambiente local, clone o projeto para uma máquina com ambiente JDK e gerenciador de projeto Maven instalados e rode os seguintes comandos no diretório do projeto:
 
-e acesse o sistema através do endereço http://localhost:8080/
+>mvn clean install
+
+>java -jar ./target/antenas.jar
+
+Após a inicialização da aplicação, acesse o sistema através do endereço http://localhost:8080/.
 
 ## Tecnologias utilizadas
 Entre as principais tecnologias utilizadas no sistema estão:
-- Uso do framework Spring Boot, um dos mais populares atualmente, para o tratamento do back-end, aliado com o banco de dados Mongo Atlas hospedado na nuvem, propiciando a segurança dos dados
+- Uso do framework Spring Boot para maior segurança no back-end e maior velocidade na manutenção do código e criação de novas funcionalidades
 
-- Realização de testes unitarios e de integração após o envio de novos commits, para garantir a estabilidade do sistema após correções de problemas e criação de novas funcionalidades
+- Banco de dados Mongo Atlas hospedado em nuvem, propiciando segurança dos dados mantidos e versionamento baseado em novos lançamentos da apluicação
 
-- Uso de ferramentas como SonarCube Cloud e JavaMelody e  para a análise da estrutura de código e da sua execução
+- Realização de testes unitarios e de integração após o envio de novos commits para garantia da estabilidade da aplicação 
+
+- Ciclos de CI e CD implementados pela plataforma GitLab. 
+
+- Análise de performance da aplicação com a ferramenta JavaMelody e monitoramento de qualidade do código pela ferramenta SonarCube Cloud.
 
 
-Para detalhes tecnológicos do sistema, acesse nossa wiki:
+Para detalhes das tecnologias do sistema, acesse nossa [Wiki](https://gitlab.com/jesscahelen/antenas-integracao/-/wikis/home);
 
 
 
