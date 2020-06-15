@@ -32,7 +32,7 @@ Em resumo, as 6 fases de um projeto no sistema Antenas são compostas pelos segu
 - Empresa se cadastra no sistema envia uma primeira proposta de projeto contendo apenas uma breve descrição.
 
 ### II - Avaliação Inicial:
-- Membro do Cadi aprova a primeira proposta e dá prosseguimento ao projeto
+- Membro do CADI aprova a primeira proposta e dá prosseguimento ao projeto
 
 ### III - Cadastro Detalhado:
 - Empresa envia proposta de projeto com informações adicionais, como descriçao completa, lista de tecnologias utilizadas e links externos
